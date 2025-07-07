@@ -149,6 +149,6 @@ if response and 'records' in response:
             st.markdown(f"### 💡 Strategy Suggestion: {suggest_strategy(pcr)}")
             st.markdown("---")
             st.caption("📧 Contact: info@vedikavanijya.com | © 2025 Vedika Stock Broking Pvt. Ltd.")
-            st.caption("🌐 To access from other devices: http://<your_ip>:8501 (e.g., http://192.168.1.11:8501)")
+            st.caption("🌐 Access Live App: [https://vedikaoptionchainanalysis.streamlit.app](https://vedikaoptionchainanalysis.streamlit.app)")
             st.markdown("---")
-            st.caption("© Developed by DHEERAJ KHANWANI")
+            st.caption("💻 Developed by **DHEERAJ KHANWANI**")
