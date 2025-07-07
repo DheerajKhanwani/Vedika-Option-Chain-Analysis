@@ -105,9 +105,9 @@ def compute_max_pain(df_calls, df_puts):
     return min(total_loss, key=total_loss.get)
 
 def suggest_strategy(pcr):
-    if pcr > 1.2:
+    if pcr > 1:
         return "\U0001F53C High PCR – Bullish outlook. Consider Bull Put Spread, Long Calls."
-    elif pcr < 0.8:
+    elif pcr < 1:
         return "\U0001F53D Low PCR – Bearish outlook. Consider Bear Call Spread, Long Puts."
     else:
         return "⚖️ Neutral PCR – Consider Iron Condor, Short Straddle."
